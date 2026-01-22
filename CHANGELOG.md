@@ -22,6 +22,8 @@
 
 <details>
 
+-   [`6114701`](https://github.com/stdlib-js/stdlib/commit/611470131a2d7acced9ee078458b6817b78138c3) - **docs:** minor clean-up _(by Philipp Burckhardt)_
+-   [`1dc536d`](https://github.com/stdlib-js/stdlib/commit/1dc536d94d8783c36df2f1dd9fc8777689155d23) - **refactor:** pre-calculate constant _(by Philipp Burckhardt)_
 -   [`2463b16`](https://github.com/stdlib-js/stdlib/commit/2463b161e2b13334b7ac23c24fe85323e6447484) - **feat:** add implementation of `stats/base/dists/halfnormal/kurtosis` [(#9771)](https://github.com/stdlib-js/stdlib/pull/9771) _(by Om-A-osc, Philipp Burckhardt)_
 
 </details>

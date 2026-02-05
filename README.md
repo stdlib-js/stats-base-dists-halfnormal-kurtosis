@@ -63,7 +63,7 @@ The [excess kurtosis][kurtosis] of a [half-normal][half-normal-distribution] dis
 ## Usage
 
 ```javascript
-import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-halfnormal-kurtosis@esm/index.mjs';
+import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-halfnormal-kurtosis@v0.1.1-esm/index.mjs';
 ```
 
 #### kurtosis( sigma )
@@ -106,7 +106,7 @@ var y = kurtosis( -1.0 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-halfnormal-kurtosis@esm/index.mjs';
+import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-halfnormal-kurtosis@v0.1.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'

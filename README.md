@@ -63,6 +63,11 @@ The [excess kurtosis][kurtosis] of a [half-normal][half-normal-distribution] dis
 ## Usage
 
 ```javascript
+import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-halfnormal-kurtosis@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-halfnormal-kurtosis/tags). For example,
+
+```javascript
 import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-halfnormal-kurtosis@v0.1.1-deno/mod.js';
 ```
 
@@ -101,7 +106,7 @@ var y = kurtosis( -1.0 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-halfnormal-kurtosis@v0.1.1-deno/mod.js';
+import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-halfnormal-kurtosis@deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
